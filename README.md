@@ -33,7 +33,7 @@ client1.rb  client2.rb  Dockerfile Gemfile  Vagrantfile
 
 Let's start by building the RabbitMQ container.  Docker can build it directly from Git:
 
-```docker build -rm -t rabbitmq github.com/forty9ten/docker-rabbitmq```
+```docker build -rm -t rabbitmq github.com/sebge2/docker-rabbitmq```
 
 Once build is complete, you can verify it by listing all the available images:
 
