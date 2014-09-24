@@ -22,6 +22,7 @@ RUN /usr/local/rvm/bin/rvm --default use 1.9.3-p484
 ADD Gemfile /Gemfile
 ADD client1.rb /client1.rb
 ADD client2.rb /client2.rb
+ADD rabbitmq.config /etc/rabbitmq/rabbitmq.config
 
 # install bundler and program's dependencies
 RUN gem install bundler -v 1.5.1 --no-ri --no-rdoc 
